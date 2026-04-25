@@ -1,0 +1,33 @@
+# ==============================
+# ✅ GPU-Compatible Requirements
+# ==============================
+
+# --- Data processing & utilities ---
+pandas
+tqdm
+pyarrow
+beautifulsoup4
+
+# --- Deep learning & embeddings (GPU enabled) ---
+# torch==2.6.0+cu118
+# torchvision==0.21.0+cu118
+# torchaudio==2.6.0+cu118
+torch
+torchvision
+torchaudio
+transformers
+sentence-transformers
+huggingface_hub[hf_xet]
+
+# --- Cheminformatics ---
+rdkit-pypi
+
+# --- Vector search (GPU build) ---
+faiss-cpu
+
+# --- Optional RAG & UI frameworks ---
+# langchain
+# gradio
+# streamlit
+
+
